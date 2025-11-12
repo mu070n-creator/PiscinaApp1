@@ -1,0 +1,7 @@
+
+/* Basic responsive tweaks and font-smoothing */
+* { box-sizing: border-box; }
+body { margin: 0; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+@media (max-width: 900px) {
+  .container { padding: 12px; }
+}
